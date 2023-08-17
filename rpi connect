@@ -31,3 +31,11 @@ sudo apt-get install eclipse
 git clone https://github.com/eclipse/risev2g.git
 cd risev2g
 mvn package
+
+java version değiştirme
+https://phoenixnap.com/kb/install-java-raspberry-
+sudo update-alternatives --config java
+
+
+
+
