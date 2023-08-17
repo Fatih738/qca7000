@@ -22,10 +22,12 @@ secc kurulumu
 git clone https://github.com/eclipse/risev2g.git
 
 maven kurulumu
+https://www.youtube.com/watch?v=czT2-vKSU6w
 wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
-tar xf apache-maven-3.9.4-bin.tar.gz
 
 eclipse kurulum
 sudo apt-get install eclipse
 
-
+git clone https://github.com/eclipse/risev2g.git
+cd risev2g
+mvn package
