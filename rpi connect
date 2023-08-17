@@ -1,0 +1,13 @@
+rpi ip adresi öğrenme
+hostname -I 
+
+directory silme komutu
+rm -r open-plc-utils 
+
+bağlantı 
+dmesg | grep qca
+ifconfig eth1
+curl -s https://packagecloud.io/install/repositories/mhei/open-plc-utils/script.deb.sh | sudo bash
+sudo apt install open-plc-utils
+sudo plctool -ieth1 -rI
+
