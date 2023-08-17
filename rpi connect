@@ -11,3 +11,13 @@ curl -s https://packagecloud.io/install/repositories/mhei/open-plc-utils/script.
 sudo apt install open-plc-utils
 sudo plctool -ieth1 -rI
 
+java 8 kurulumu
+sudo apt install openjdk-8-jdk openjdk-8-jre
+java -version
+
+git kurulumu
+git clone https://github.com/git/git
+
+secc kurulumu
+git clone https://github.com/eclipse/risev2g.git
+
