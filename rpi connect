@@ -14,6 +14,9 @@ sudo plctool -ieth1 -rI
 java 8 kurulumu
 sudo apt install openjdk-8-jdk openjdk-8-jre
 java -version
+sudo nano /etc/environment
+JAVA_HOME = "/usr/lib/jvm/java-8-openjdk-armhf/jre/bin/java"
+
 
 git kurulumu
 git clone https://github.com/git/git
