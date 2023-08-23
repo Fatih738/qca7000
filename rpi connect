@@ -40,5 +40,16 @@ https://phoenixnap.com/kb/install-java-raspberry-
 sudo update-alternatives --config java
 
 
+sevenstax FreeV2G WB-CARRIER-BOARD
+https://github.com/Sevenstax/FreeV2G/tree/master
+git clone https://github.com/SEVENSTAX/FreeV2G
+cd FreeV2G
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --pre scapy[basic]
+pip install Cython
+pip install python-libpcap
+$ ip list olmazsa ip addr olur ya da ip -a
+sudo .venv/bin/python3 Application.py eth -i eth0 -m C4:93:00:34:A6:AD -r EVSE
 
 
